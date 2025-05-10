@@ -1,7 +1,8 @@
-// postcss.config.js
+// tailwind.config.js
 export default {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+    content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+    theme: {
+      extend: {},
     },
+    plugins: [],
   };
