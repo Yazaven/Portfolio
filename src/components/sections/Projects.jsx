@@ -11,9 +11,23 @@ export const Projects = () => {
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Featured Projects
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            {/* Project 1 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
+                <img
+                  src="/bg.png"
+                  alt="bg"
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                />
+                <img
+                  src="/project1.png" // replace with actual project image
+                  alt="Resume Matcher"
+                  className="relative z-10 h-full object-contain mx-auto"
+                />
+              </div>
               <h3 className="text-xl font-bold mb-2">Resume Matcher AI Tool</h3>
               <p className="text-gray-400 mb-4">
                 AI-powered document analysis system using OpenAI embeddings and cosine similarity
@@ -34,7 +48,7 @@ export const Projects = () => {
                   href="https://github.com/Yazaven/ResumeMatcher"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Code →
                 </a>
@@ -42,14 +56,27 @@ export const Projects = () => {
                   href="https://resume-matcher-mocha.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4 ml-4"
+                  className="text-blue-400 hover:text-blue-300 transition-colors ml-4"
                 >
                   Live Demo →
                 </a>
               </div>
             </div>
 
+            {/* Project 2 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
+                <img
+                  src="/bg.png"
+                  alt="bg"
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                />
+                <img
+                  src="/project2.png" // replace with actual project image
+                  alt="TSP Visualizer"
+                  className="relative z-10 h-full object-contain mx-auto"
+                />
+              </div>
               <h3 className="text-xl font-bold mb-2">TSP Visualizer (tspvis.com)</h3>
               <p className="text-gray-400 mb-4">
                 Open-source educational platform visualizing Traveling Salesman Problem algorithms
@@ -70,7 +97,7 @@ export const Projects = () => {
                   href="https://github.com/jhackshaw/tspvis"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Code →
                 </a>
@@ -78,14 +105,27 @@ export const Projects = () => {
                   href="https://tspvis.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4 ml-4"
+                  className="text-blue-400 hover:text-blue-300 transition-colors ml-4"
                 >
                   Live Demo →
                 </a>
               </div>
             </div>
 
+            {/* Project 3 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+              <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
+                <img
+                  src="/bg.png"
+                  alt="bg"
+                  className="absolute top-0 left-0 w-full h-full object-cover"
+                />
+                <img
+                  src="/project3.png" // replace with actual project image
+                  alt="Project Management Suite"
+                  className="relative z-10 h-full object-contain mx-auto"
+                />
+              </div>
               <h3 className="text-xl font-bold mb-2">Project Management Suite</h3>
               <p className="text-gray-400 mb-4">
                 AWS-powered collaboration platform with real-time task tracking,
@@ -106,7 +146,7 @@ export const Projects = () => {
                   href="https://github.com/Yazaven/Project-Manger"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                  className="text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   View Code →
                 </a>
@@ -114,7 +154,7 @@ export const Projects = () => {
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors my-4 ml-4"
+                  className="text-blue-400 hover:text-blue-300 transition-colors ml-4"
                 >
                   Live Demo →
                 </a>
