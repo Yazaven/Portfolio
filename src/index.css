@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body::before {
   content: '';
   position: fixed;
@@ -39,51 +38,34 @@ body:hover::before {
   transition: background-color 0.3s ease, opacity 0.3s ease;
 }
 
-
 @layer utilities {
   @keyframes blink {
-    0%, 100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
+    0%, 100% { opacity: 1; }
+    50%      { opacity: 0; }
   }
-
-  .animate-blink {
-    animation: blink 0.8s step-end infinite;
-  }
+  .animate-blink { animation: blink 0.8s step-end infinite; }
 
   @keyframes loading {
-    0% {
-      transform: translateX(-100%);
-    }
-    100% {
-      transform: translateX(250%);
-    }
+    0%   { transform: translateX(-100%); }
+    100% { transform: translateX(250%); }
   }
-
-  .animate-loading-bar {
-    animation: loading 0.8s ease infinite;
-  }
+  .animate-loading-bar { animation: loading 0.8s ease infinite; }
 
   .reveal {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.7s ease, transform 0.7s ease;
   }
-
   .reveal.visible {
     opacity: 1;
     transform: translateY(0);
   }
 
   @keyframes gradient-flow {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
   }
-
   .animate-gradient-flow {
     background-size: 400% 400%;
     animation: gradient-flow 15s ease infinite;
@@ -92,10 +74,7 @@ body:hover::before {
   .hover-scale {
     @apply transition-transform duration-300 ease-[cubic-bezier(0.4,0,0.2,1)];
   }
-
-  .hover-scale:hover {
-    transform: scale(1.03);
-  }
+  .hover-scale:hover { transform: scale(1.03); }
 
   .hover-glow:hover {
     box-shadow: 0 0 30px rgba(59, 130, 246, 0.3);
@@ -104,21 +83,18 @@ body:hover::before {
   .project-card {
     @apply relative overflow-hidden;
   }
-
   .project-card::before {
     content: '';
     @apply absolute inset-0 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 opacity-0 transition-opacity duration-300;
   }
-
   .project-card:hover::before {
     opacity: 1;
   }
 
   @keyframes pulse {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.3; }
+    50%      { opacity: 0.3; }
   }
-
   .animate-pulse {
     animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
   }
@@ -131,7 +107,6 @@ body:hover::before {
     position: relative;
     overflow: hidden;
   }
-
   .light-interactive::before {
     content: '';
     position: absolute;
