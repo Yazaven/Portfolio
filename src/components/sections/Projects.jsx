@@ -70,7 +70,7 @@ export const Projects = () => {
 </div>
 
             {/* Project 2 */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
   <div
     className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4"
     style={{ backgroundColor: "#13162D" }}
@@ -86,7 +86,7 @@ export const Projects = () => {
     <img
       src="/map.png"
       alt="TSP Visualizer"
-      className="relative z-10 h-full max-h-full w-auto object-contain mx-auto"
+      className="absolute top-0 left-0 w-full h-full object-cover z-10"
     />
   </div>
 
