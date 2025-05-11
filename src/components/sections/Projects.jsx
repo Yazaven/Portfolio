@@ -16,49 +16,58 @@ export const Projects = () => {
 
             {/* Project 1 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
-              <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
-                <img
-                  src="/bg.png"
-                  alt="bg"
-                  className="absolute top-0 left-0 w-full h-full object-cover"
-                />
-<img src="/rs.png" style="width: 100%; height: 100%; object-fit: cover;" alt="Image" />
+  <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
+    {/* Background image */}
+    <img
+      src="/bg.png"
+      alt="Background"
+      className="absolute top-0 left-0 w-full h-full object-cover z-0"
+    />
+    
+    {/* Foreground image */}
+    <img
+      src="/rs.png"
+      alt="Resume Matcher"
+      className="absolute top-0 left-0 w-full h-full object-cover z-10"
+    />
+  </div>
 
-              </div>
-              <h3 className="text-xl font-bold mb-2">Resume Matcher AI Tool</h3>
-              <p className="text-gray-400 mb-4">
-                AI-powered document analysis system using OpenAI embeddings and cosine similarity
-                for optimized resume-job matching with PDF/DOCX processing.
-              </p>
-              <div className="flex flex-wrap gap-2 mb-4">
-                {["React", "Python", "OpenAI API", "PyPDF2", "Vercel"].map((tech, key) => (
-                  <span
-                    key={key}
-                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
-                  >
-                    {tech}
-                  </span>
-                ))}
-              </div>
-              <div className="flex justify-between items-center">
-                <a
-                  href="https://github.com/Yazaven/ResumeMatcher"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors"
-                >
-                  View Code →
-                </a>
-                <a
-                  href="https://resume-matcher-mocha.vercel.app"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors ml-4"
-                >
-                  Live Demo →
-                </a>
-              </div>
-            </div>
+  <h3 className="text-xl font-bold mb-2">Resume Matcher AI Tool</h3>
+  <p className="text-gray-400 mb-4">
+    AI-powered document analysis system using OpenAI embeddings and cosine similarity
+    for optimized resume-job matching with PDF/DOCX processing.
+  </p>
+
+  <div className="flex flex-wrap gap-2 mb-4">
+    {["React", "Python", "OpenAI API", "PyPDF2", "Vercel"].map((tech, key) => (
+      <span
+        key={key}
+        className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+      >
+        {tech}
+      </span>
+    ))}
+  </div>
+
+  <div className="flex justify-between items-center">
+    <a
+      href="https://github.com/Yazaven/ResumeMatcher"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-400 hover:text-blue-300 transition-colors"
+    >
+      View Code →
+    </a>
+    <a
+      href="https://resume-matcher-mocha.vercel.app"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-400 hover:text-blue-300 transition-colors ml-4"
+    >
+      Live Demo →
+    </a>
+  </div>
+</div>
 
             {/* Project 2 */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
