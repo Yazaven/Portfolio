@@ -23,7 +23,7 @@ export const Projects = () => {
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />
                 <img
-                  src="/project1.png" // replace with actual project image
+                  src="C:\Users\lds\Portfolio\public\rs.png" 
                   alt="Resume Matcher"
                   className="relative z-10 h-full object-contain mx-auto"
                 />
@@ -72,7 +72,7 @@ export const Projects = () => {
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />
                 <img
-                  src="/project2.png" // replace with actual project image
+                  src="C:\Users\lds\Portfolio\public\map.png"
                   alt="TSP Visualizer"
                   className="relative z-10 h-full object-contain mx-auto"
                 />
@@ -121,7 +121,7 @@ export const Projects = () => {
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />
                 <img
-                  src="/project3.png" // replace with actual project image
+                  src="" 
                   alt="Project Management Suite"
                   className="relative z-10 h-full object-contain mx-auto"
                 />
