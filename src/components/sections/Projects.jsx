@@ -23,7 +23,7 @@ export const Projects = () => {
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />
                 <img
-                  src="C:\Users\lds\Portfolio\public\rs.png" 
+                  src="/rs.png"
                   alt="Resume Matcher"
                   className="relative z-10 h-full object-contain mx-auto"
                 />
