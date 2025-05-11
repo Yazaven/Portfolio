@@ -22,11 +22,8 @@ export const Projects = () => {
                   alt="bg"
                   className="absolute top-0 left-0 w-full h-full object-cover"
                 />
-                <img
-                  src="/rs.png"
-                  alt="Resume Matcher"
-                  className="relative z-10 h-full object-contain mx-auto"
-                />
+<img src="/rs.png" style="width: 100%; height: 100%; object-fit: cover;" alt="Image" />
+
               </div>
               <h3 className="text-xl font-bold mb-2">Resume Matcher AI Tool</h3>
               <p className="text-gray-400 mb-4">
