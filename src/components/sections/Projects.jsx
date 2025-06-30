@@ -12,16 +12,18 @@ export const Projects = () => {
             Featured Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            {/* Resume Matcher AI Tool */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col h-full">
               <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]">
                 <img
-                  src="/proxy-image.jpeg"
+                  src="/bg.png"
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 <img
                   src="/rs.png"
-                  alt=""
+                  alt="Resume Matcher"
                   className="absolute inset-0 w-full h-full object-contain p-4"
                 />
               </div>
@@ -46,16 +48,17 @@ export const Projects = () => {
               </div>
             </div>
 
+            {/* TSP Visualizer */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col h-full">
               <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]">
                 <img
-                  src="/proxy-image.jpeg"
+                  src="/bg.png"
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 <img
                   src="/map.png"
-                  alt=""
+                  alt="TSP Visualizer"
                   className="absolute inset-0 w-full h-full object-contain p-4"
                 />
               </div>
@@ -80,16 +83,17 @@ export const Projects = () => {
               </div>
             </div>
 
+            {/* Intrusion Detection System */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col h-full">
               <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]">
                 <img
-                  src="/proxy-image.jpeg"
+                  src="/bg.png"
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 <img
-                  src="/ids.png"
-                  alt=""
+                  src="/proxy-image.jpeg"
+                  alt="Intrusion Detection System"
                   className="absolute inset-0 w-full h-full object-contain p-4"
                 />
               </div>
@@ -111,16 +115,17 @@ export const Projects = () => {
               </div>
             </div>
 
+            {/* Packet Analyzer */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col h-full">
               <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]">
                 <img
-                  src="/proxy-image.jpeg"
+                  src="/bg.png"
                   alt=""
                   className="absolute inset-0 w-full h-full object-cover"
                 />
                 <img
                   src="/osi.jpeg"
-                  alt=""
+                  alt="Packet Analyzer"
                   className="absolute inset-0 w-full h-full object-contain p-4"
                 />
               </div>
@@ -141,6 +146,7 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+
           </div>
         </div>
       </RevealOnScroll>
