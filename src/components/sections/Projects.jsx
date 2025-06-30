@@ -19,7 +19,7 @@ export const Projects = () => {
                 style={{ backgroundColor: "#13162D" }}
               >
                 <img
-                  src="/osi.png"
+                  src="/proxy-image.jpeg"
                   alt="Background"
                   className="absolute top-0 left-0 w-full h-full object-cover z-0"
                 />
@@ -191,7 +191,7 @@ export const Projects = () => {
                   className="absolute top-0 left-0 w-full h-full object-cover z-0"
                 />
                 <img
-                  src="/proxy-image.jpeg"
+                  src="/osi.jpeg"
                   alt="Packet Analyzer"
                   className="absolute top-0 left-0 w-full h-full object-cover z-10"
                 />
