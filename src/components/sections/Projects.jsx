@@ -15,15 +15,12 @@ export const Projects = () => {
 
             {/* Resume Matcher AI Tool */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col h-full">
-              <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]">
-                <img
-                  src="/bg.png"
-                  alt=""
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+              <div
+                className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]"
+              >
                 <img
                   src="/rs.png"
-                  alt="Resume Matcher"
+                  alt="Resume Matcher AI Tool"
                   className="absolute inset-0 w-full h-full object-contain p-4"
                 />
               </div>
@@ -50,12 +47,9 @@ export const Projects = () => {
 
             {/* TSP Visualizer */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col h-full">
-              <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]">
-                <img
-                  src="/bg.png"
-                  alt=""
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+              <div
+                className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]"
+              >
                 <img
                   src="/map.png"
                   alt="TSP Visualizer"
@@ -85,12 +79,9 @@ export const Projects = () => {
 
             {/* Intrusion Detection System */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col h-full">
-              <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]">
-                <img
-                  src="/bg.png"
-                  alt=""
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+              <div
+                className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]"
+              >
                 <img
                   src="/proxy-image.jpeg"
                   alt="Intrusion Detection System"
@@ -117,12 +108,9 @@ export const Projects = () => {
 
             {/* Packet Analyzer */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition flex flex-col h-full">
-              <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]">
-                <img
-                  src="/bg.png"
-                  alt=""
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
+              <div
+                className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4 bg-[#13162D]"
+              >
                 <img
                   src="/osi.jpeg"
                   alt="Packet Analyzer"
