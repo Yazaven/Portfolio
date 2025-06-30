@@ -13,6 +13,8 @@ export const Projects = () => {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            {/* Resume Matcher AI Tool */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
                 <img src="/bg.png" alt="Background" className="absolute top-0 left-0 w-full h-full object-cover z-0" />
@@ -40,9 +42,10 @@ export const Projects = () => {
               </div>
             </div>
 
+            {/* TSP Visualizer */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
-                <img src="/bg.png" alt="Background" className="absolute top-0 left-0 w-full h-full object-cover" />
+                <img src="/bg.png" alt="Background" className="absolute top-0 left-0 w-full h-full object-cover z-0" />
                 <img src="/map.png" alt="TSP Visualizer" className="absolute top-0 left-0 w-full h-full object-cover z-10" />
               </div>
               <h3 className="text-xl font-bold mb-2">TSP Visualizer (tspvis.com)</h3>
@@ -67,15 +70,17 @@ export const Projects = () => {
               </div>
             </div>
 
+            {/* Intrusion Detection System */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
-                <img src="/ids.png" alt="Intrusion Detection System" className="absolute top-0 left-0 w-full h-full object-cover" />
+                <img src="/bg.png" alt="Background" className="absolute top-0 left-0 w-full h-full object-cover z-0" />
+                <img src="/ids.png" alt="Intrusion Detection System" className="absolute top-0 left-0 w-full h-full object-cover z-10" />
               </div>
               <h3 className="text-xl font-bold mb-2">Intrusion Detection System</h3>
               <p className="text-gray-400 mb-4">
-                Predictive model distinguishing between malicious and normal network connections
+                Predictive classifier distinguishing between malicious vs. normal network connections
                 using feature extraction on the KDD Cup 1999 dataset. Decision Tree achieved the
-                best accuracy and computational time among seven trained classifiers.
+                highest accuracy and fastest runtime among seven algorithms.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {['Python', 'Scikit-learn', 'KDD99', 'Decision Tree', 'Machine Learning'].map((tech, key) => (
@@ -91,15 +96,16 @@ export const Projects = () => {
               </div>
             </div>
 
+            {/* Packet Analyzer */}
             <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
               <div className="relative overflow-hidden h-[20vh] lg:h-[30vh] rounded-xl mb-4" style={{ backgroundColor: "#13162D" }}>
-                <img src="/packet.png" alt="Packet Analyzer" className="absolute top-0 left-0 w-full h-full object-cover" />
+                <img src="/bg.png" alt="Background" className="absolute top-0 left-0 w-full h-full object-cover z-0" />
+                <img src="/packet.png" alt="Packet Analyzer" className="absolute top-0 left-0 w-full h-full object-cover z-10" />
               </div>
               <h3 className="text-xl font-bold mb-2">Packet Analyzer</h3>
               <p className="text-gray-400 mb-4">
-                C++ and Linux raw sockets based packet analyzer with multithreaded GUI.
-                Captures network traffic at low level, providing detailed insights before
-                higher-level protocol processing.
+                Multithreaded C++ packet sniffer using Linux raw sockets. GUI built with Qt
+                captures low-level network traffic before higher-level protocol processing.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {['C++', 'Linux', 'Multithreading', 'Raw Sockets', 'Qt'].map((tech, key) => (
