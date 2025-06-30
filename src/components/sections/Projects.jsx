@@ -186,7 +186,7 @@ export const Projects = () => {
                 style={{ backgroundColor: "#13162D" }}
               >
                 <img
-                  src="/bg.png"
+                  src="/proxy-image.jpeg"
                   alt="Background"
                   className="absolute top-0 left-0 w-full h-full object-cover z-0"
                 />
