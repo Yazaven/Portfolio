@@ -82,23 +82,24 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4">🚀 Key Projects</h3>
               <div className="space-y-4 text-gray-300">
                 <div>
-                  <h4 className="font-semibold">Resume Matcher AI</h4>
-                  <p className="text-sm">
-                    Document analysis platform using OpenAI embeddings and cosine similarity
-                  </p>
-                </div>
-                <div>
                   <h4 className="font-semibold">TSP Visualizer</h4>
                   <p className="text-sm">
                     Open-source algorithm visualization tool with Mapbox integration
                   </p>
                 </div>
                 <div>
-                  <h4 className="font-semibold">Project Management Suite</h4>
+                  <h4 className="font-semibold">Resume Matcher AI</h4>
                   <p className="text-sm">
-                    AWS-powered collaboration platform with real-time task tracking
+                    Document analysis platform using OpenAI embeddings and cosine similarity
                   </p>
                 </div>
+                    <div>
+      <h4 className="font-semibold">Packet Analyzer</h4>
+      <p className="text-sm">
+        Multithreaded C++ packet sniffer using Linux raw sockets. GUI built with Qt captures low-level network traffic before higher-level protocol processing.
+      </p>
+    </div>
+                
               </div>
             </div>
           </div>
